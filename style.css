@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    /* text-decoration: none;
+    text-decoration: none; */
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+header ul li a {
+    color: rgb(60, 60, 60);
+    font-weight: 100;
+}
+
+header ul {
+    margin-left: 80px;
+    color: rgb(254, 254, 254);
+    font-size: xx-small;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
+header {
+    background-color: rgba(251, 251, 253, .8);
+    padding-bottom: 1px;
+    margin-top: -15px;
+}
+
+.Apple-Logo {
+    display: inline-block;
+    margin-bottom: -18px;
+    margin-left: 56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+header .Apple-Logo {
+    /* width: 30px;
+    height: 25px; */
+    width: 19px;
+    height: 11px;
+    display: inline-block;
+}
+
+header .container {
+    background: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+header .container1 {
+    display: inline-block;
+}
+
+/* header .container2 {
+    background: transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.search-icon {
+    display: block;
+    margin-bottom: 6px;
+    margin-left: 571px;
+}
+
+header .search-icon {
+    width: 11px;
+    height: 9px;
+    display: inline-block; 
+} */
+
+.text-after-navbar p {
+    text-align: center;
+    font-size: xx-small;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 8px;
+}
+
+.text-after-navbar a {
+    font-size: x-small;
+    color: blue;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.text-after-navbar a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-after-navbar span {
+    color: blue;
+}
+
+.hero-section {
+    background-image: url(/heroiphone.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    /* padding-bottom: 350px; */
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 330px;
+    background-position-x: center;
+}
+
+.hero-section h1 {
+    color: rgb(254, 254, 254);
+    text-align: center;
+    padding-top: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.hero-section p {
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: medium;
+    margin-top: 4px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hero-section .container p a {
+    color: rgb(0, 0, 255);
+    font-size: x-small;
+}
+
+.paraa1 {
+    margin-right: 10px;
+}
+
+.hero-section .container p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span1 {
+    color: blue;
+    margin-left: -9px;
+    margin-right: 19px;
+    font-size: x-small;
+}
+
+.span2 {
+    color: blue;
+    font-size: x-small;
+}
+
+.hero-section2{
+    margin-top: 353px;
+    background-image: url(/heroiphone2.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    background-position-x: center;
+}
+
+.hero-section2 h1 {
+    color: rgb(30, 30, 30);
+    text-align: center;
+    padding-top: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.hero-section2 p {
+    color: rgb(31, 31, 31);
+    text-align: center;
+    font-size: medium;
+    margin-top: 4px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hero-section2 .container2 p a {
+    color: rgb(0, 0, 255);
+    font-size: x-small;
+}
+
+.para2a1 {
+    margin-right: 10px;
+}
+
+.hero-section2 .container2 p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span3 {
+    color: blue;
+    margin-left: -9px;
+    margin-right: 19px;
+    font-size: x-small;
+    font-weight: 100;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.span4 {
+    color: blue;   
+    font-size: x-small;
+}
+
+.hero-section3{
+    margin-top: 688px;
+    background-image: url(/heromacbook.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    background-position-x: center;
+}
+
+.hero-section3 h1 {
+    color: rgb(30, 30, 30);
+    text-align: center;
+    padding-top: 20px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.hero-section3 p {
+    color: rgb(31, 31, 31);
+    text-align: center;
+    font-size: medium;
+    margin-top: 4px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hero-section3 .container3 p a {
+    color: rgb(0, 0, 255);
+    font-size: x-small;
+}
+
+.para3a1 {
+    margin-right: 10px;
+}
+
+.hero-section3 .container3 p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span5 {
+    color: blue;
+    margin-left: -9px;
+    margin-right: 19px;
+    font-size: x-small;
+    font-weight: 100;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.span6 {
+    color: blue;   
+    font-size: x-small;
+}
+
