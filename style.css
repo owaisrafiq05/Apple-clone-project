@@ -563,3 +563,171 @@ header .search-icon {
     color: rgb(0, 0, 0);
     font-size: x-small;
 }
+
+.hero-section9{
+    margin-top: 1696px;
+    margin-left: 390px;
+    background-image: url(/hero-card.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 49%;
+    height: 330px;
+    background-position-x: center;
+}
+
+.hero-section9 .container9 {
+    margin-top: 30px;
+}
+
+.hero-section9 .container9 img {
+    width: 68px;
+    height: 21px;
+    margin-left: 153px;
+}
+
+.hero-section9 p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: medium;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hero-section9 .container9 p a {
+    color: rgb(0, 34, 255);
+    font-size: x-small;
+    margin-top: 4px;
+}
+
+.para9a1 {
+    margin-right: 10px;
+}
+
+.hero-section9 .container9 p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.span13 {
+    color: rgb(0, 21, 255);
+    margin-left: -9px;
+    margin-right: 19px;
+    font-size: x-small;
+    font-weight: 100;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.span14 {
+    color: rgb(13, 0, 255);
+    font-size: x-small;
+}
+
+.hero-section10 img {
+    background-size: cover;
+    margin-top: 2028px;
+    /* padding-bottom: 350px; */
+    position: absolute;
+    /* bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: 330px;
+    background-position-x: center;
+}
+
+.text-section p{
+    margin-top: 2367px;
+    font-size: xx-small;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 6px;
+    line-height: 1.33337;
+    font-weight: 100;
+    letter-spacing: -.01em;  
+    color: #6e6e73; 
+}
+
+.container10{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-left: 97px;
+    padding-right: 74px;
+    background-color: #f5f5f7;
+}
+
+footer{
+    background-color: #f5f5f7;
+    font-size: xx-small;
+    color: #6e6e73; 
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+list-style: none;
+font-size: 8px;
+}
+
+footer ul li{
+    list-style: none;
+    padding-left: 50px;
+}
+
+.bold{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.container11{
+    display: inline-block;
+    padding-top: 19px;
+    margin-left: 34px;
+    padding-bottom: 20px;
+}
+
+.container12{
+    display: inline-block;
+}
+
+.container13{
+    display: inline-block;
+}
+
+.container14{
+    display: inline-block;
+}
+
+.container15{
+    display: inline-block;
+}
+
+.container16{   
+    margin-left: 80px;
+    border-bottom: 1px solid #6e6e73;
+    margin-bottom: 20px;
+    margin-right: 141px;
+    padding-bottom: 3px;
+}
+
+.container16 a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.container17{
+    margin-top: -17px;
+    margin-left: 80px;
+}
+
+.container17 p{
+    display: inline-block;
+}
+
+.container17 ul{
+    margin-top: -9px;
+    margin-left: 183px;
+}
+
+.container17 ul li{
+    display: inline-block;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.container17 ul li:hover{
+    text-decoration: underline;
+}
